@@ -1,0 +1,44 @@
+AAGE,age,Int64,R,"{0, 1, 2, …}",0
+ACLSWKR,class of worker,Object,N,"{Not in universe, Federal government, Local government, Never worked, Private, Self-employed-incorporated, Self-employed-not incorporated, State government, Without pay.}",  
+ADTIND,industry code,Int64,N,"{0, 1, 2, …}",0
+ADTOCC,occupation code,Int64,N,"{0, 1, 2, …}",0
+AHGA,education,Object,N,"{Children, 7th and 8th grade, 9th grade, 10th grade, High school graduate, 11th grade, 12th grade no diploma, 5th or 6th grade, Less than 1st grade, Bachelors degree(BA AB BS), 1st 2nd 3rd or 4th grade, Some college but no degree, Masters degree(MA MS MEng MEd MSW MBA), Associates degree-occup /vocational, Associates degree-academic program, Doctorate degree(PhD EdD), Prof school degree (MD DDS DVM LLB JD)}",0
+AHRSPAY,wage per hour,Int64,R,"{0, 1, 2, …}",0
+AHSCOL,enrolled in edu inst last wk,Object,N,"{Not in universe, High school, College or university.}",0
+AMARITL,marital status,Object,N,"{Never married, Married-civilian spouse present, Married-spouse absent, Separated, Divorced, Widowed, Married-A F spouse present.}",0
+AMJIND,major industry code,Object,N,"{Not in universe or children, Entertainment, Social services, Agriculture, Education, Public administration, Manufacturing-durable goods, Manufacturing-nondurable goods, Wholesale trade, Retail trade, Finance insurance and real estate, Private household services, Business and repair services, Personal services except private HH, Construction, Medical except hospital, Other professional services, Transportation, Utilities and sanitary services, Mining, Communications, Hospital services, Forestry and fisheries, Armed Forces.}",0
+AMJOCC,major occurpation code,Object,N,"{Not in universe, Professional specialty, Other service, Farming forestry and fishing, Sales, Adm support including clerical, Protective services, Handlers equip cleaners etc , Precision production craft & repair, Technicians and related support, Machine operators assmblrs & inspctrs, Transportation and material moving, Executive admin and managerial, Private household services, Armed Forces.}",0
+ARACE,mace,Object,N,"{White, Black, Other, Amer Indian Aleut or Eskimo, Asian or Pacific Islander.}",0
+AREORGN,hispanic orgin,Object,N,"{Mexican (Mexicano), Mexican-American, Puerto Rican, Central or South American, All other, Other Spanish, Chicano, Cuban, Do not know, NA.}",874
+ASEX,sex,Object,N,"{Female, Male.}",0
+AUNMEM,member of labor union,Object,N,"{Not in universe, No, Yes.}",0
+AUNTYPE,reason for unemployment,Object,N,"{}",0
+AWKSTAT,full or part time employment stat,Object,N,"{}",0
+CAPGAIN,capital gain,Int64,R,"{0, 1, 2, …}",0
+CAPLOSS,capital losses,Int64,R,"{0, 1, 2, …}",0
+DIVVAL,dividends from stocks,Int64,,"{0, 1, 2, …}",0
+FILESTAT,tax filer status,Object,N,"{Nonfiler, Joint one under 65 & one 65+, Joint both under 65, Single, Head of household, Joint both 65+.}",0
+GRINREG,region of previous residence,Object,N,"{Not in universe, South, Northeast, West, Midwest, Abroad.}",0
+GRINST,state of previous residence,Object,N,"{Not in universe, Utah, Michigan, North Carolina, North Dakota, Virginia, Vermont, Wyoming, West Virginia, Pennsylvania, Abroad, Oregon, California, Iowa, Florida, Arkansas, Texas, South Carolina, Arizona, Indiana, Tennessee, Maine, Alaska, Ohio, Montana, Nebraska, Mississippi, District of Columbia, Minnesota, Illinois, Kentucky, Delaware, Colorado, Maryland, Wisconsin, New Hampshire, Nevada, New York, Georgia, Oklahoma, New Mexico, South Dakota, Missouri, Kansas, Connecticut, Louisiana, Alabama, Massachusetts, Idaho, New Jersey.}",0
+HHDFMX,detailed household and family stat,Object,N,"{Child <18 never marr not in subfamily, Other Rel <18 never marr child of subfamily RP, Other Rel <18 never marr not in subfamily, Grandchild <18 never marr child of subfamily RP, Grandchild <18 never marr not in subfamily, Secondary individual, In group quarters, Child under 18 of RP of unrel subfamily, RP of unrelated subfamily, Spouse of householder, Householder, Other Rel <18 never married RP of subfamily, Grandchild <18 never marr RP of subfamily, Child <18 never marr RP of subfamily, Child <18 ever marr not in subfamily, Other Rel <18 ever marr RP of subfamily, Child <18 ever marr RP of subfamily, Nonfamily householder, Child <18 spouse of subfamily RP, Other Rel <18 spouse of subfamily RP, Other Rel <18 ever marr not in subfamily, Grandchild <18 ever marr not in subfamily, Child 18+ never marr Not in a subfamily, Grandchild 18+ never marr not in subfamily, Child 18+ ever marr RP of subfamily, Other Rel 18+ never marr not in subfamily, Child 18+ never marr RP of subfamily, Other Rel 18+ ever marr RP of subfamily, Other Rel 18+ never marr RP of subfamily, Other Rel 18+ spouse of subfamily RP, Other Rel 18+ ever marr not in subfamily, Child 18+ ever marr Not in a subfamily, Grandchild 18+ ever marr not in subfamily, Child 18+ spouse of subfamily RP, Spouse of RP of unrelated subfamily, Grandchild 18+ ever marr RP of subfamily, Grandchild 18+ never marr RP of subfamily, Grandchild 18+ spouse of subfamily RP}",
+HHDREL,detailed household summary in household,Object,N,"{Child under 18 never married, Other relative of householder, Nonrelative of householder, Spouse of householder, Householder, Child under 18 ever married, Group Quarters- Secondary individual, Child 18 or older}",0
+MARSUPWT,instance weight,Float64,,"{0, 1, 2, …}",0
+MIGMTR1,migration code-change in msa,Object,N,"{Not in universe, Nonmover, MSA to MSA, NonMSA to nonMSA, MSA to nonMSA, NonMSA to MSA, Abroad to MSA, Not identifiable, Abroad to nonMSA.}",0
+MIGMTR3,migration code-change in reg,Object,N,"{Not in universe, Nonmover, Same county, Different county same state, Different state same division, Abroad, Different region, Different division same region.}",0
+MIGMTR4,migration code-move within reg,Object,N,"{Not in universe, Nonmover, Same county, Different county same state, Different state in West, Abroad, Different state in Midwest, Different state in South, Different state in Northeast.}",0
+MIGSAME,live in this house 1 year ago,Object,N,"{Not in universe under 1 year old, Yes, No.}",0
+MIGSUN,migration prev res in sunbelt,Object,N,"{Not in universe, Yes, No.}",0
+NOEMP,num persons worked for employer,Int64,R,"{0, 1, 2, …}",0
+PARENT,family members under 18,Object,N,"{Both parents present, Neither parent present, Mother only present, Father only present, Not in universe.}",0
+PEFNTVTY,country of birth father,Object,N,"{Mexico, United-States, Puerto-Rico, Dominican-Republic, Jamaica, Cuba, Portugal, Nicaragua, Peru, Ecuador, Guatemala, Philippines, Canada, Columbia, El-Salvador, Japan, England, Trinadad&Tobago, Honduras, Germany, Taiwan, Outlying-U S (Guam USVI etc), India, Vietnam, China, Hong Kong, Cambodia, France, Laos, Haiti, South Korea, Iran, Greece, Italy, Poland, Thailand, Yugoslavia, Holand-Netherlands, Ireland, Scotland, Hungary, Panama.}",0
+PEMNTVTY,country of birth mother,Object,N,"{India, Mexico, United-States, Puerto-Rico, Dominican-Republic, England, Honduras, Peru, Guatemala, Columbia, El-Salvador, Philippines, France, Ecuador, Nicaragua, Cuba, Outlying-U S (Guam USVI etc), Jamaica, South Korea, China, Germany, Yugoslavia, Canada, Vietnam, Japan, Cambodia, Ireland, Laos, Haiti, Portugal, Taiwan, Holand-Netherlands, Greece, Italy, Poland, Thailand, Trinadad&Tobago, Hungary, Panama, Hong Kong, Scotland, Iran.}",0
+PENATVTY,country of birth self,Object,N,"{United-States, Mexico, Puerto-Rico, Peru, Canada, South Korea, India, Japan, Haiti, El-Salvador, Dominican-Republic, Portugal, Columbia, England, Thailand, Cuba, Laos, Panama, China, Germany, Vietnam, Italy, Honduras, Outlying-U S (Guam USVI etc), Hungary, Philippines, Poland, Ecuador, Iran, Guatemala, Holand-Netherlands, Taiwan, Nicaragua, France, Jamaica, Scotland, Yugoslavia, Hong Kong, Trinadad&Tobago, Greece, Cambodia, Ireland.}",0
+PRCITSHP,citizenship,Object,N,"{Native- Born in the United States, Foreign born- Not a citizen of U S , Native- Born in Puerto Rico or U S Outlying, Native- Born abroad of American Parent(s), Foreign born- U S citizen by naturalization.}",0
+SEOTR,own business or self employed,Int64,N,"{0, 2, 1.}",0
+VETQVA,fill inc questionaire for vetern's admin,Object,N,"{Not in universe, Yes, No.}',0
+VETYN,veterns benefits,Int64,,"{0, 2, 1.}",0
+WKSWORK,weeks worked in year,Int64,R,"{0, 1, 2, …}",0
+YEAR,year,Int64,,"{1994,1995}",0
+PTOTVALB,,Object,N,"{}",0
+
+
